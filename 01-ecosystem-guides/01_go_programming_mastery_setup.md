@@ -196,5 +196,56 @@ _______________________________________________________________________________
 
 ### How to create a Go project inside this repo
 
+Create the project directory
+```sh
+mkdir topic-01
+```
+_______________________________________________________________________________
 
+Enter the project directory
+```sh
+cd topic-01
+```
+_______________________________________________________________________________
+
+Initialize the project and create a `go.mod` file
+Create a `go.mod` file
+```sh
+go mod init topic-01 
+```
+
+This is a file that will intialize the project as a Go module.
+
+This tells Go that this directory is a Go program 
+that can have its own dependencies.
+
+The convention in Go is to use the GitHub url where you intend to save
+your project. It's fine if you have not created this repo on GitHub yet,
+or don't have a GitHub account created yet.
+
+_______________________________________________________________________________
+
+```sh
+touch main.go
+```
+_______________________________________________________________________________
+
+Add this to the main.go file
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Go Programming Mastery")
+}
+```
+_______________________________________________________________________________
+
+### Run your program
+
+To run your program use this command:
+```sh
+go run .
+```
 _______________________________________________________________________________
