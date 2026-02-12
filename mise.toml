@@ -1,7 +1,2 @@
 [tools]
-go = "1.25.7"
-
-[env]
-GOPATH = "{{cwd}}/.go-dev-tools"
-GOBIN = "{{cwd}}/.go-dev-tools/bin"
-GOPLS_LSP_BIN = "{{cwd}}/.go-dev-tools/bin/gopls"
+go = "1.26.0"

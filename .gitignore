@@ -1,3 +1,0 @@
-# This is a custom location for the executable binaries of Go dev tools
-# that will be installed with `go install` and a custom `GOBIN` path.
-.go-dev-tools/
